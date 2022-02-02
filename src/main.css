@@ -1,0 +1,91 @@
+:root
+{
+    --color-main: #ffa500;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #fef8f8;
+  }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 5vw;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .horizontal
+  {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .vertical
+  {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .header
+  {
+      justify-content: center;
+      align-items: center;
+
+      font-size: 2em;
+
+      color: var(--color-main);
+  }
+
+  .header i
+  {
+      font-size: 2em;
+      margin: 0px 20px;
+  }
+
+  .search-bar-container
+  {
+      justify-content: center;
+      align-items: center;
+  }
+
+  .search-bar
+  {
+      border: none;
+      border-radius: 8px;
+
+      padding: 5px 10px;
+
+      box-shadow: 0px 1px 2px 1px grey;
+
+      width: 350px;
+  }
+
+  .search-bar:focus
+  {
+      outline: none;
+  }
+
+  .btn
+  {
+      margin: 0px 10px;
+      padding: 5px 10px;
+
+
+      border: none;
+      border-radius: 8px;
+
+      box-shadow: 0px 1px 2px 1px grey;
+
+      background: var(--color-main);
+      color: #787675;
+  }
+
+  .btn:hover
+  {
+      color: var(--color-main);
+
+      background: white;
+  }
