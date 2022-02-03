@@ -1,6 +1,66 @@
 # APLICACION REACT
 
-esta aplicación utiliza REACT JS
+esta aplicación utiliza REACT JS > está estructurado por un componente en donde se forma la tarjeta de cada item recuperado del llamado a la API en uso. Este componente se lo puede visualizar en la carpeta de 
+
+### `components`
+
+Además la API en uso es https://www.scorebat.com/video-api/ ,la cual nos permite obtener videos de los partidos de diversas ligas.
+
+### `Resultado API`
+
+```
+[
+    {
+        "title": "Peru - Ecuador",
+        "competition": "WORLD CUP: CONMEBOL, Preminiaries",
+        "matchviewUrl": "https://www.scorebat.com/embed/matchview/993905/",
+        "competitionUrl": "https://www.scorebat.com/embed/competition/world-cup-conmebol-preminiaries/",
+        "thumbnail": "https://www.scorebat.com/og/m/og993905.jpeg",
+        "date": "2022-02-02T02:00:00+0000",
+        "videos": [
+            {
+                "title": "Highlights",
+                "embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;'><iframe src='https://www.scorebat.com/embed/v/61fa149989fe8/?utm_source=api&utm_medium=video&utm_campaign=dffd' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+            }
+        ]
+    },
+    {
+        "title": "Ecuador - Brazil",
+        "competition": "WORLD CUP: CONMEBOL, Preminiaries",
+        "matchviewUrl": "https://www.scorebat.com/embed/matchview/993899/",
+        "competitionUrl": "https://www.scorebat.com/embed/competition/world-cup-conmebol-preminiaries/",
+        "thumbnail": "https://www.scorebat.com/og/m/og993899.jpeg",
+        "date": "2022-01-27T21:00:00+0000",
+        "videos": [
+            {
+                "title": "Highlights",
+                "embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;'><iframe src='https://www.scorebat.com/embed/v/61f358d3621ac/?utm_source=api&utm_medium=video&utm_campaign=dffd' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+            },
+            {
+                "title": "Highlights",
+                "embed": "<div style='width:100%;height:0px;position:relative;padding-bottom:56.250%;'><iframe src='https://www.scorebat.com/embed/v/61f3426eab80e/?utm_source=api&utm_medium=video&utm_campaign=dffd' frameborder='0' width='100%' height='100%' allowfullscreen allow='autoplay; fullscreen' style='width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;'></iframe></div>"
+            }
+        ]
+    }
+]
+```
+
+# Interfaz de usuario
+
+para poder hacer uso de la aplicación debemos dar click en el botón de
+### `Search News`
+![image](https://user-images.githubusercontent.com/74694516/152256696-70510dd3-6036-4abc-b260-e2a1fcf9e3ed.png)
+
+Una vez, realizado este paso, observarémos los resultados de la API en formato de tarjetas en donde se muestra el Título, Descripción y Fecha respectiva.
+
+![image](https://user-images.githubusercontent.com/74694516/152257194-08828137-0986-446a-9b73-2f51a32d7177.png)
+
+###  `Search Bar`
+
+El searchbar nos permitira filtrar los resultados obtenidos, es decir buscar por Título del video.
+
+![image](https://user-images.githubusercontent.com/74694516/152257317-1883dc17-bfa6-48b7-9f09-fd2c6bb47b0b.png)
+
 
 # Getting Started with Create React App
 
